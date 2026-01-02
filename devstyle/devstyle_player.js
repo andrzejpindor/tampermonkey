@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         DevStyle Player Controls
 // @namespace    http://tampermonkey.net/
-// @version      2026-01-02
+// @version      1.1
 // @description  Speed controls and size toggle for DevStyle player
-// @author       You
+// @author       andrzejpindor
 // @match        https://edu.devstyle.pl/products/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=devstyle.pl
 // @grant        none
