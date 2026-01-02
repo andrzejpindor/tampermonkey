@@ -6,6 +6,7 @@
 // @author       andrzejpindor
 // @match        https://edu.devstyle.pl/products/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=devstyle.pl
+// downloadURL   https://github.com/andrzejpindor/tampermonkey/blob/main/devstyle/devstyle_player.js
 // @updateURL    https://github.com/andrzejpindor/tampermonkey/blob/main/devstyle/devstyle_player.js
 // @grant        none
 // ==/UserScript==
