@@ -29,7 +29,7 @@
             playlist: '.player__playlist',
         },
         dialogTimeout: 3000,
-        expandedSize: '80%',
+        expandedSize: '100%',
     };
 
     const CONTAINER_ID = 'tm-player-controls';
@@ -109,12 +109,12 @@
                 container.style.maxWidth = CONFIG.expandedSize;
                 container.style.width = CONFIG.expandedSize;
                 if (video) video.style.width = CONFIG.expandedSize;
-                if (playlist) playlist.style.width = '20%';
+                if (playlist) playlist.style.display = 'none';
             } else {
                 container.style.removeProperty('max-width');
                 container.style.removeProperty('width');
                 if (video) video.style.removeProperty('width');
-                if (playlist) playlist.style.removeProperty('width');
+                if (playlist) playlist.style.removeProperty('display');
             }
 
             expanded = !expanded;
